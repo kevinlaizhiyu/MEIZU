@@ -1,0 +1,55 @@
+#header {
+    width: 100%;
+    height: 90px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    .h_center {
+        width: 1240px;
+        height: 100%;
+        background: yellow;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // position: absolute;
+        // left: 0;
+        // top: 0;
+        // width: 150px;
+        // height: 100%;
+        font-size: 40px;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a {
+            text-decoration: none;
+        }
+    }
+    .nav {
+        width: 650px;
+        height: 30px;
+        background: pink;
+    }
+    .search {
+        width: 170px;
+        height: 30px;
+        background: pink;
+    }
+    .self {
+        width: 30px;
+        height: 30px;
+        background: pink;
+    }
+    .shoppingCart {
+        width: 30px;
+        height: 30px;
+        background: pink;
+    }
+}
+
+
+}
