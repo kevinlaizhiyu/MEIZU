@@ -1,0 +1,51 @@
+{
+  "id": "1607938",
+  "name": "MEIZU",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1507458",
+      "name": "meizu",
+      "font_class": "meizu",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "2327820",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "3794207",
+      "name": "魅族手机",
+      "font_class": "meizushouji",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "7983401",
+      "name": "魅族",
+      "font_class": "meizu1",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "8032927",
+      "name": "魅族应用中心",
+      "font_class": "meizuyingyongzhongxin",
+      "unicode": "ea16",
+      "unicode_decimal": 59926
+    },
+    {
+      "icon_id": "10242915",
+      "name": "搜索",
+      "font_class": "search",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    }
+  ]
+}

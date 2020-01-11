@@ -5,6 +5,12 @@ body {
     height: 100%;
 }
 
+#wrap {
+    width: 100%;
+    height: 100%;
+    background: #f4f4f4;
+}
+
 @import 'index_relative/header.scss';
 @import 'index_relative/banner.scss';
 @import 'index_relative/advertisement.scss';

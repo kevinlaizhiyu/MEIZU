@@ -1,28 +1,24 @@
 #LifeSurrounding {
     width: 100%;
-    height: 1320px;
-    background: f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    .notice {
+    height: 1430px;
+    .note {
         width: 1240px;
-        height: 104px;
-        background: pink;
+        height: 110px;
+        margin: 0 auto;
         display: flex;
         justify-content: center;
         align-items: flex-end;
         font-size: 28px;
     }
-    .ad_pic {
+    .ad {
         width: 100%;
         height: 450px;
-        background: skyblue;
+        background: rgb(35, 204, 255);
     }
-    .series {
+    .list {
         width: 1240px;
-        height: 780px;
-        background: purple;
+        height: 790px;
+        background: rgb(221, 92, 53);
+        margin: 0 auto;
     }
 }

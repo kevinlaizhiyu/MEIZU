@@ -1,9 +1,19 @@
 #footer {
     width: 100%;
-    height: 300px;
-    background: yellow;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    height: 310px;
+    .note {
+        width: 1240px;
+        height: 70px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        font-size: 28px;
+    }
+    .list {
+        width: 1240px;
+        height: 250px;
+        background: rgb(251, 68, 44);
+        margin: 0 auto;
+    }
 }

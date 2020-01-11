@@ -1,24 +1,47 @@
 #advertisement {
     width: 100%;
-    height: 270px;
-    background: green;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    ul {
+    height: 280px;
+    background: #fff;
+    .ad_center {
         width: 1240px;
-        height: 100%;
-        background: #ccc;
+        height: 280px;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        li {
+        margin: 0 auto;
+        .ad_part {
             width: 25%;
             height: 100%;
             display: flex;
             justify-content: center;
-            align-items: flex-start;
-            background: yellow;
+            padding-top: 50px;
+            box-sizing: border-box;
+            a {
+                display: block;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+                text-decoration: none;
+                img {
+                    display: block;
+                    width: 130px;
+                    height: 130px;
+                }
+                em {
+                    display: block;
+                    color: #333;
+                    font-size: 20px;
+                    margin: 10px;
+                }
+                p {
+                    display: block;
+                    font-size: 14px;
+                    color: #999;
+                }
+            }
         }
     }
 }

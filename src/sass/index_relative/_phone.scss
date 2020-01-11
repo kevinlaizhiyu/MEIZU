@@ -1,33 +1,168 @@
 #phone {
     width: 100%;
     height: 1950px;
-    background: f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    .notice {
+    background: #f4f4f4;
+    .note {
         width: 1240px;
-        height: 104px;
-        background: pink;
+        height: 110px;
+        margin: 0 auto;
         display: flex;
         justify-content: center;
         align-items: flex-end;
         font-size: 28px;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+        font-size: 30px;
     }
-    .ad_pic {
+    .ad {
         width: 100%;
         height: 450px;
-        background: skyblue;
+        a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: relative;
+            overflow: hidden;
+            img {
+                position: absolute;
+                width: auto;
+                height: auto;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
     }
-    .mainSale {
+    .main {
         width: 1240px;
-        height: 620px;
-        background: red;
-    }
-    .series {
-        width: 1240px;
-        height: 780px;
-        background: purple;
+        height: 1390px;
+        margin: 0 auto;
+        li {
+            float: left;
+            position: relative;
+            width: 303px;
+            height: 375px;
+            margin-right: 9px;
+            margin-top: 10px;
+            overflow: hidden;
+            transition: all .3s ease;
+            background: #fff;
+            .good-box {
+                height: 100%;
+                width: 100%;
+                a {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+                    text-decoration: none;
+                    padding-top: 70px;
+                    box-sizing: border-box;
+                    img {
+                        display: block;
+                        width: 440px;
+                        height: 440px;
+                    }
+                    .good-name {
+                        color: #333;
+                        font-size: 28px;
+                        margin-bottom: 10px;
+                    }
+                    .good-desc {
+                        color: #333;
+                        font-size: 18px;
+                        margin-bottom: 3px;
+                        margin-bottom: 15px;
+                    }
+                    .good-price {
+                        display: inline-block;
+                        color: #c00;
+                        font-size: 22px;
+                        padding-left: 14px;
+                    }
+                    .product-sign {
+                        display: block;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        position: absolute;
+                        top: 30px;
+                        left: 30px;
+                        text-align: center;
+                        line-height: 50px;
+                        color: #fff;
+                    }
+                    .yellow {
+                        background: linear-gradient(#ffac1f, yellow);
+                    }
+                    .red {
+                        background: linear-gradient(#ff3b5b, #ff578e);
+                    }
+                }
+            }
+        }
+        .big {
+            width: 615px;
+            height: 610px;
+        }
+        .big2 {
+            margin-right: 0;
+            margin-left: 0px;
+        }
+        .last {
+            margin-right: 0;
+        }
+        .phone-x {
+            .phone-x-box {
+                width: 100%;
+                height: 100%;
+                a {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+                    text-decoration: none;
+                    padding-top: 40px;
+                    box-sizing: none;
+                    .phone-x-name {
+                        color: #333;
+                        font-size: 16px;
+                        margin-bottom: 8px;
+                    }
+                    .phone-x-desc {
+                        color: #333;
+                        font-size: 16px;
+                        margin-bottom: 10px;
+                    }
+                    .phone-x-price {
+                        display: inline-block;
+                        color: #c00;
+                        font-size: 22px;
+                        padding-left: 14px;
+                        margin-bottom: 14px;
+                    }
+                    img {
+                        display: block;
+                        width: 230px;
+                        height: 230px;
+                    }
+                    .product-sign {
+                        display: block;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        position: absolute;
+                        top: 40px;
+                        left: 40px;
+                        text-align: center;
+                        line-height: 50px;
+                        color: #fff;
+                    }
+                    .red {
+                        background: linear-gradient(#ff3b5b, #ff578e);
+                    }
+                }
+            }
+        }
     }
 }
