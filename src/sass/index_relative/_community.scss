@@ -1,6 +1,7 @@
 #community {
     width: 100%;
     height: 890px;
+    background: #f4f4f4;
     .note {
         width: 1240px;
         height: 110px;
@@ -9,6 +10,7 @@
         justify-content: center;
         align-items: flex-end;
         font-size: 28px;
+        margin-bottom: 20px;
     }
     .ad {
         width: 100%;
@@ -17,8 +19,65 @@
     }
     .list {
         width: 1240px;
-        height: 790px;
-        background: rgb(129, 251, 58);
+        height: 1160px;
         margin: 0 auto;
+        li {
+            float: left;
+            width: 303px;
+            height: 375px;
+            margin-right: 9px;
+            margin-top: 10px;
+            background-color: #fff;
+            overflow: hidden;
+            transition: all .3s ease;
+            a {
+                text-decoration: none;
+                color: #333;
+            }
+            img {
+                width: 100%;
+                height: 190px;
+            }
+            .comment-user-info {
+                width: 100%;
+                height: 42px;
+                margin-top: 10px;
+                padding: 0 14px;
+                box-sizing: border-box;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                img {
+                    float: left;
+                    width: 42px;
+                    height: 42px;
+                    border-radius: 50%;
+                }
+                .comment-username {
+                    margin-left: 15px;
+                    font-size: 14px;
+                    color: #515151;
+                }
+            }
+            p {
+                padding: 10px 15px 15px;
+                font-size: 16px;
+                line-height: 27px;
+                text-align: left;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 3;
+                overflow: hidden;
+            }
+            span {
+                color: #999;
+                display: block;
+                padding: 0 15px;
+                text-align: left;
+            }
+        }
+        .last {
+            margin-right: 0;
+        }
     }
 }
