@@ -6,6 +6,7 @@
     top: 0;
     left: 0;
     z-index: 100;
+    background: rgb(153, 153, 153);
     .header_center {
         width: 1240px;
         height: 90px;
@@ -36,6 +37,9 @@
                     text-decoration: none;
                     color: #fff;
                     font-size: 14px;
+                }
+                a:hover {
+                    color: #5dd5fa;
                 }
             }
         }

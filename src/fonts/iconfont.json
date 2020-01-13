@@ -6,6 +6,20 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "978353",
+      "name": "新浪微博",
+      "font_class": "weibo",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "1382584",
+      "name": "微信 (1)",
+      "font_class": "weixin",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
       "icon_id": "1507458",
       "name": "meizu",
       "font_class": "meizu",
@@ -27,6 +41,13 @@
       "unicode_decimal": 58921
     },
     {
+      "icon_id": "7342740",
+      "name": "小程序",
+      "font_class": "xiaochengxu",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
       "icon_id": "7983401",
       "name": "魅族",
       "font_class": "meizu1",
@@ -46,6 +67,13 @@
       "font_class": "search",
       "unicode": "e60c",
       "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "10268526",
+      "name": "QQ空间",
+      "font_class": "QQkongjian",
+      "unicode": "e674",
+      "unicode_decimal": 58996
     }
   ]
 }
