@@ -1,15 +1,67 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>注册页面</title>
+    <title>Flyme注册登录</title>
+    <link rel="stylesheet" href="../dist/css/register.css">
+    <link rel="stylesheet" href="../src/fonts/iconfont.css">
 </head>
 
 <body>
+    <!-- header -->
+    <div id="head">
+        <div class="head-center">
+            <a href="#">
+                <span class="iconfont icon-meizu"></span>
+            </a>
+        </div>
+    </div>
 
+    <!-- bg-0box -->
+    <div id="bg-box">
+        <div class="bg-box-center">
+            <img src="images/meizu16ad.jpg" alt="">
+            <form action="" class="main-form" id="main-form">
+                <div class="tab-title">
+                    <a class="linkABlack" id="toAccountLogin" href="javascript:void(0);">账号登录</a>
+                    <span class="register-line">|</span>
+                    <a class="linkAGray" id="toVCodeLogin" href="javascript:void(0);">二维码登录</a>
+                </div>
+                <div class="phone-num">
+                    <div class="phone-head">
+                        +86
+                    </div>
+                    <input type="text" placeholder="18042567616">
+                </div>
+                <div class="phone-password">
+                    <input type="password">
+                </div>
+                <div class="phone-button">
+                    <button>点击按钮进行验证</button>
+                </div>
+                <p>
+                    <input type="checkbox" id="remember"><label for="remember">记住登录状态</label>
+                </p>
+                <button class="submit">登录</button>
+                <p class="register-forget">
+                    <a href="#">注册</a>
+                    <a href="#">忘记密码</a>
+                </p>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+
+    <script>
+        window.setTimeout(function() {
+            window.location.reload();
+        }, 1000);
+    </script>
 </body>
 
 </html>

@@ -1,0 +1,130 @@
+    #bg-box {
+        width: 100%;
+        height: 750px;
+        background: rgb(243, 252, 255);
+        .bg-box-center {
+            width: 1240px;
+            height: 750px;
+            margin: 0 auto;
+            position: relative;
+            img {
+                position: absolute;
+                width: 1240px;
+                height: 750px;
+                opacity: 0.6;
+            }
+            form {
+                width: 368px;
+                height: 475px;
+                position: absolute;
+                top: 17%;
+                right: 85px;
+                background-color: #FFF;
+                padding: 35px 35px 10px;
+                border-radius: 2px;
+                box-shadow: 0 6px 12px 0 rgba(138, 153, 150, 0.15);
+                padding: 35px 35px 10px 35px;
+                box-sizing: border-box;
+                .tab-title {
+                    font-size: 18px;
+                    margin-top: 35px;
+                    width: 300px;
+                    text-align: center;
+                    a {
+                        color: #515151;
+                        text-decoration: none;
+                    }
+                    span {
+                        margin: 0 25px;
+                        color: #ccc;
+                    }
+                }
+                .phone-num {
+                    width: 300px;
+                    height: 48px;
+                    border: 1px solid #ccc;
+                    margin-top: 50px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .phone-head {
+                        width: 80px;
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    input {
+                        width: 220px;
+                        height: 46px;
+                        border: 1px solid #ccc;
+                        border-right: none;
+                        text-indent: 20px;
+                        font-size: 15px;
+                        outline: none;
+                    }
+                }
+                .phone-password {
+                    width: 300px;
+                    height: 48px;
+                    border: 1px solid #ccc;
+                    margin-top: 20px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    input {
+                        width: 300;
+                        height: 46px;
+                        border: 1px solid #ccc;
+                        border-right: none;
+                        border-left: none;
+                        text-indent: 20px;
+                        font-size: 15px;
+                        outline: none;
+                    }
+                }
+                .phone-button {
+                    width: 300px;
+                    height: 40px;
+                    margin-top: 20px;
+                    background: yellow;
+                    button {
+                        width: 100%;
+                        height: 100%;
+                        text-align: center;
+                        line-height: 38px;
+                    }
+                }
+                p {
+                    margin-top: 22px;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    input {
+                        width: 20px;
+                        height: 20px;
+                    }
+                    label {
+                        margin-left: 15px;
+                    }
+                }
+                .submit {
+                    width: 300px;
+                    height: 40px;
+                    background: #387aff;
+                    border: none;
+                    margin-top: 15px;
+                    font-size: 18px;
+                }
+                .register-forget {
+                    margin-top: 20px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    a {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
