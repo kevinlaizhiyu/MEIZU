@@ -1,0 +1,32 @@
+{
+    "name": "meizu",
+    "version": "1.0.0",
+    "description": "魅族的WEB开发文档",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/18042567616/MEIZU.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/18042567616/MEIZU/issues"
+    },
+    "homepage": "https://github.com/18042567616/MEIZU#readme",
+    "devDependencies": {
+        "expose-loader": "^0.7.5",
+        "webpack": "^4.41.5",
+        "webpack-cli": "^3.3.10"
+    },
+    "scripts": {
+        "webpack": "webpack --progress --display-modules --colors --watch",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "jquery": "^3.4.1"
+    }
+
+}
