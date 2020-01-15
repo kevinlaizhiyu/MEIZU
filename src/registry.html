@@ -26,42 +26,48 @@
             <img src="images/meizu16ad.jpg" alt="">
             <form action="" class="main-form" id="main-form">
                 <div class="tab-title">
-                    <a class="linkABlack" id="toAccountLogin" href="javascript:void(0);">账号登录</a>
+                    <a class="title-login" href="javascript:void(0);">账号登录</a>
                     <span class="register-line">|</span>
-                    <a class="linkAGray" id="toVCodeLogin" href="javascript:void(0);">二维码登录</a>
+                    <a class="" href="javascript:void(0);">二维码登录</a>
                 </div>
-                <div class="phone-num">
-                    <div class="phone-head">
-                        +86
+                <div class="info">
+                    <div class="phone-num">
+                        <div class="phone-head">
+                            +86
+                        </div>
+                        <input type="text" placeholder="18042567616">
                     </div>
-                    <input type="text" placeholder="18042567616">
+                    <div class="phone-password">
+                        <input type="password">
+                    </div>
+                    <div class="phone-button">
+                        <button>点击按钮进行验证</button>
+                    </div>
+                    <p>
+                        <input type="checkbox" id="remember"><label for="remember">记住登录状态</label>
+                    </p>
+                    <button class="submit">登录</button>
+                    <p class="register-forget">
+                        <a href="#">注册</a>
+                        <a href="#">忘记密码</a>
+                    </p>
                 </div>
-                <div class="phone-password">
-                    <input type="password">
+                <div class="info" style="display: none;">
+                    <img src="https://login.flyme.cn/mzQrShow?qrType=0&_t=1579093678660" alt="" class="code">
+                    <p class="info-note">请使用账号中心右上角或最新的Flyme系统相机扫码功能,扫码登录</p>
                 </div>
-                <div class="phone-button">
-                    <button>点击按钮进行验证</button>
-                </div>
-                <p>
-                    <input type="checkbox" id="remember"><label for="remember">记住登录状态</label>
-                </p>
-                <button class="submit">登录</button>
-                <p class="register-forget">
-                    <a href="#">注册</a>
-                    <a href="#">忘记密码</a>
-                </p>
             </form>
         </div>
     </div>
 
-
+    <script src="../dist/bundle.js"></script>
     <!-- footer -->
 
-    <script>
+    <!-- <script>
         window.setTimeout(function() {
             window.location.reload();
         }, 1000);
-    </script>
+    </script> -->
 </body>
 
 </html>
