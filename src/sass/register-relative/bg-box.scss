@@ -1,157 +1,34 @@
-    #bg-box {
-        width: 100%;
+#bg-box {
+    width: 100%;
+    height: 750px;
+    background: rgb(243, 252, 255);
+    .bg-box-center {
+        width: 1240px;
         height: 750px;
-        background: rgb(243, 252, 255);
-        .bg-box-center {
+        margin: 0 auto;
+        position: relative;
+        img {
+            position: absolute;
             width: 1240px;
             height: 750px;
-            margin: 0 auto;
-            position: relative;
-            img {
-                position: absolute;
-                width: 1240px;
-                height: 750px;
-                opacity: 0.6;
-            }
-            form {
-                width: 368px;
-                height: 475px;
-                position: absolute;
-                top: 17%;
-                right: 85px;
-                background-color: #FFF;
-                padding: 35px 35px 10px;
-                border-radius: 2px;
-                box-shadow: 0 6px 12px 0 rgba(138, 153, 150, 0.15);
-                padding: 35px 35px 10px 35px;
-                box-sizing: border-box;
-                .info {
-                    width: 100%;
-                    height: 380px;
-                    position: relative;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: flex-start;
-                    .code {
-                        display: block;
-                        width: 300px;
-                        height: 300px;
-                        position: absolute;
-                        top: 0;
-                        left: 0;
-                        opacity: 1;
-                    }
-                    .info-note {
-                        color: #ccc;
-                        font-size: 18px;
-                        position: absolute;
-                        bottom: 35px;
-                        left: 20px;
-                    }
-                }
-                .tab-title {
-                    font-size: 18px;
-                    margin-top: 35px;
-                    width: 300px;
-                    text-align: center;
-                    a {
-                        color: #6b6b6b;
-                        text-decoration: none;
-                    }
-                    span {
-                        margin: 0 25px;
-                        color: #ccc;
-                    }
-                    .title-login {
-                        color: rgb(39, 39, 39);
-                    }
-                }
-                .phone-num {
-                    width: 300px;
-                    height: 48px;
-                    border: 1px solid #ccc;
-                    margin-top: 50px;
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    .phone-head {
-                        width: 80px;
-                        height: 100%;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                    }
-                    input {
-                        width: 220px;
-                        height: 46px;
-                        border: 1px solid #ccc;
-                        border-right: none;
-                        text-indent: 20px;
-                        font-size: 15px;
-                        outline: none;
-                    }
-                }
-                .phone-password {
-                    width: 300px;
-                    height: 48px;
-                    border: 1px solid #ccc;
-                    margin-top: 20px;
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    input {
-                        width: 300;
-                        height: 46px;
-                        border: 1px solid #ccc;
-                        border-right: none;
-                        border-left: none;
-                        text-indent: 20px;
-                        font-size: 15px;
-                        outline: none;
-                    }
-                }
-                .phone-button {
-                    width: 300px;
-                    height: 40px;
-                    margin-top: 20px;
-                    background: yellow;
-                    button {
-                        width: 100%;
-                        height: 100%;
-                        text-align: center;
-                        line-height: 38px;
-                    }
-                }
-                p {
-                    margin-top: 22px;
-                    display: flex;
-                    justify-content: flex-start;
-                    align-items: center;
-                    input {
-                        width: 20px;
-                        height: 20px;
-                    }
-                    label {
-                        margin-left: 15px;
-                    }
-                }
-                .submit {
-                    width: 300px;
-                    height: 40px;
-                    background: #387aff;
-                    border: none;
-                    margin-top: 15px;
-                    font-size: 18px;
-                }
-                .register-forget {
-                    margin-top: 20px;
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    a {
-                        text-decoration: none;
-                    }
-                }
+            opacity: 0.6;
+        }
+        form {
+            width: 368px;
+            height: 475px;
+            position: absolute;
+            top: 17%;
+            right: 85px;
+            background-color: #FFF;
+            padding: 35px 35px 10px;
+            border-radius: 2px;
+            box-shadow: 0 6px 12px 0 rgba(138, 153, 150, 0.15);
+            padding: 35px 35px 10px 35px;
+            box-sizing: border-box;
+            p {
+                color: #387aff;
+                font-size: 14px;
             }
         }
     }
+}

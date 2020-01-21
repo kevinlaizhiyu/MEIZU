@@ -1,0 +1,22 @@
+#stair {
+    position: fixed;
+    bottom: 100px;
+    left: 20px;
+    width: 80px;
+    display: none;
+    z-index: 100;
+    ul {
+        li {
+            list-style: none;
+            width: 80px;
+            height: 50px;
+            background: rgb(235, 253, 246);
+            text-align: center;
+            line-height: 50px;
+        }
+        .active {
+            background: #37d7ff;
+            color: #fff;
+        }
+    }
+}

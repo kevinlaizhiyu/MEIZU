@@ -6,7 +6,6 @@
     top: 0;
     left: 0;
     z-index: 100;
-    background: rgb(153, 153, 153);
     .header_center {
         width: 1240px;
         height: 90px;
@@ -26,13 +25,18 @@
         }
         ul {
             width: 700px;
-            height: 40px;
+            height: 100%;
             display: flex;
             justify-content: space-around;
             align-items: center;
             margin-left: 120px;
             li {
                 list-style: none;
+                display: flex;
+                flex-grow: 1;
+                height: 100%;
+                justify-content: center;
+                align-items: center;
                 a {
                     text-decoration: none;
                     color: #fff;
@@ -75,5 +79,21 @@
             text-align: center;
             line-height: 35px;
         }
+    }
+}
+
+#head-details {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    background: #fff;
+    width: 100%;
+    height: 0;
+    z-index: 100;
+    .hd-dt-center {
+        width: 1240px;
+        height: 100%;
+        margin: 0 auto;
+        background: yellow;
     }
 }

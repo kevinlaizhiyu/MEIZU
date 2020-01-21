@@ -1,20 +1,21 @@
 class Sales {
     constructor() {
-
+        this.phoneLi = $('#phone .main li');
+        this.phoneImg = $('#phone .main li img');
+        this.phoneName = $('#phone .main li .phone-name');
+        this.phoneDesc = $('#phone .main li .phone-desc');
+        this.phonePrice = $('#phone .main li .phone-price');
 
     }
     init() {
         $.ajax({
-            url: "http://10.31.152.65/MEIZU/php/meizu-data.php",
-            dataType: "json",
+            url: 'http://localhost/MEIZU/php/meizu-data.php',
+            dataType: 'json',
         }).done((data) => {
-            for (let value in data) {
-                if (value.sid <= 2) {
-
-                } else {
-
-                }
-            }
+            // this.phoneImg.prop('src',)
+            $.each(function(index, element) {
+                console.log(index)
+            })
         })
     }
 }

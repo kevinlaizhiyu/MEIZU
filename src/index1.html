@@ -11,6 +11,19 @@
 </head>
 
 <body>
+    <!-- 楼梯 -->
+    <div id="stair">
+        <ul>
+            <li class="active">手机</li>
+            <li>魅族声学</li>
+            <li>智能配件</li>
+            <li>生活周边</li>
+            <li>社区热帖</li>
+            <li>Flyme</li>
+            <li>精彩视频</li>
+            <li class="last">回到顶部</li>
+        </ul>
+    </div>
     <div id="wrap">
         <!-- 最外层做背景 -->
         <!-- -----------------------头部------------------- -->
@@ -22,15 +35,15 @@
                     </a>
                 </div>
                 <ul>
-                    <li><a href="#">手机</a></li>
-                    <li><a href="#">声学</a></li>
-                    <li><a href="#">配件</a></li>
-                    <li><a href="#">生活</a></li>
+                    <li class="hd-nav"><a href="#">手机</a></li>
+                    <li class="hd-nav"><a href="#">声学</a></li>
+                    <li class="hd-nav"><a href="#">配件</a></li>
+                    <li class="hd-nav"><a href="#">生活</a></li>
                     <li><a href="#">Flyme</a></li>
                     <li><a href="#">服务</a></li>
                     <li><a href="#">专卖店</a></li>
                     <li><a href="#">社区</a></li>
-                    <li><a href="#">APP下载</a></li>
+                    <li class="hd-nav"><a href="#">APP下载</a></li>
                 </ul>
                 <div class="search">
                     <input type="search" placeholder="魅族 16T">
@@ -43,6 +56,11 @@
                 <div class="shopping">
                     <span class="iconfont icon-gouwuche"></span>
                 </div>
+            </div>
+        </div>
+        <div id="head-details">
+            <div class="hd-dt-center">
+
             </div>
         </div>
         <!-- ------------------------轮播图--------------------- -->
@@ -97,7 +115,7 @@
             </div>
         </div>
         <!-- -------------------phone----------------- -->
-        <div id="phone">
+        <div id="phone" class="floor">
             <div class="note">手机</div>
             <div class="ad">
                 <a href="#">
@@ -108,9 +126,9 @@
                 <li class="big">
                     <div class="good-box">
                         <a href="#">
-                            <span class="good-name">魅族16T</span>
-                            <span class="good-desc">6.5 英寸极边全面屏 | 骁龙 855 旗舰处理器</span>
-                            <span class="good-price">
+                            <span class="good-name phone-name">魅族16T</span>
+                            <span class="good-desc phone-desc">6.5 英寸极边全面屏 | 骁龙 855 旗舰处理器</span>
+                            <span class="good-price phone-price">
                                 <i>￥</i>1999
                             </span>
                             <img src="https://openfile.meizu.com/group1/M00/07/7A/Cgbj0V2upxqANyVFAAjApUYA58w668.png" alt="">
@@ -121,9 +139,9 @@
                 <li class="big big2">
                     <div class="good-box">
                         <a href="#">
-                            <span class="good-name">魅族16S Pro</span>
-                            <span class="good-desc">高通骁龙 855 Plus  | 索尼 4800W 像素超广角 AI 三摄</span>
-                            <span class="good-price">
+                            <span class="good-name phone-name">魅族16S Pro</span>
+                            <span class="good-desc phone-desc">高通骁龙 855 Plus  | 索尼 4800W 像素超广角 AI 三摄</span>
+                            <span class="good-price phone-price">
                                 <i>￥</i>2699
                             </span>
                             <img src="https://openfile.meizu.com/group1/M00/07/48/Cgbj0F1jhu-AaV4AAAlk4z4lkt0463.png" alt="">
@@ -135,9 +153,9 @@
                     <div class="phone-x-box">
                         <a href="#">
                             <img src="https://openfile.meizu.com/group1/M00/07/02/Cgbj0Fx_ZKSATnTJAAU3Ca8M6D8964.png" alt="">
-                            <span class="phone-x-name">魅族 Note9</span>
-                            <span class="phone-x-desc">骁龙 675 | 后置 4800 万</span>
-                            <span class="phone-x-price">
+                            <span class="phone-x-name phone-name">魅族 Note9</span>
+                            <span class="phone-x-desc phone-desc">骁龙 675 | 后置 4800 万</span>
+                            <span class="phone-x-price phone-price">
                                 <i>￥</i>
                                 1199
                             </span>
@@ -149,9 +167,9 @@
                     <div class="phone-x-box">
                         <a href="#">
                             <img src="https://openfile.meizu.com/group1/M00/07/02/Cgbj0Fx_ZKSATnTJAAU3Ca8M6D8964.png" alt="">
-                            <span class="phone-x-name">魅族 Note9</span>
-                            <span class="phone-x-desc">骁龙 675 | 后置 4800 万</span>
-                            <span class="phone-x-price">
+                            <span class="phone-x-name phone-name">魅族 Note9</span>
+                            <span class="phone-x-desc phone-desc">骁龙 675 | 后置 4800 万</span>
+                            <span class="phone-x-price phone-price">
                                 <i>￥</i>
                                 1199
                             </span>
@@ -163,9 +181,9 @@
                     <div class="phone-x-box">
                         <a href="#">
                             <img src="https://openfile.meizu.com/group1/M00/07/02/Cgbj0Fx_ZKSATnTJAAU3Ca8M6D8964.png" alt="">
-                            <span class="phone-x-name">魅族 Note9</span>
-                            <span class="phone-x-desc">骁龙 675 | 后置 4800 万</span>
-                            <span class="phone-x-price">
+                            <span class="phone-x-name phone-name">魅族 Note9</span>
+                            <span class="phone-x-desc phone-desc">骁龙 675 | 后置 4800 万</span>
+                            <span class="phone-x-price phone-price">
                                 <i>￥</i>
                                 1199
                             </span>
@@ -177,9 +195,9 @@
                     <div class="phone-x-box">
                         <a href="#">
                             <img src="https://openfile.meizu.com/group1/M00/07/02/Cgbj0Fx_ZKSATnTJAAU3Ca8M6D8964.png" alt="">
-                            <span class="phone-x-name">魅族 Note9</span>
-                            <span class="phone-x-desc">骁龙 675 | 后置 4800 万</span>
-                            <span class="phone-x-price">
+                            <span class="phone-x-name phone-name">魅族 Note9</span>
+                            <span class="phone-x-desc phone-desc">骁龙 675 | 后置 4800 万</span>
+                            <span class="phone-x-price phone-price">
                                 <i>￥</i>
                                 1199
                             </span>
@@ -191,9 +209,9 @@
                     <div class="phone-x-box">
                         <a href="#">
                             <img src="https://openfile.meizu.com/group1/M00/07/02/Cgbj0Fx_ZKSATnTJAAU3Ca8M6D8964.png" alt="">
-                            <span class="phone-x-name">魅族 Note9</span>
-                            <span class="phone-x-desc">骁龙 675 | 后置 4800 万</span>
-                            <span class="phone-x-price">
+                            <span class="phone-x-name phone-name">魅族 Note9</span>
+                            <span class="phone-x-desc phone-desc">骁龙 675 | 后置 4800 万</span>
+                            <span class="phone-x-price phone-price">
                                 <i>￥</i>
                                 1199
                             </span>
@@ -205,9 +223,9 @@
                     <div class="phone-x-box">
                         <a href="#">
                             <img src="https://openfile.meizu.com/group1/M00/07/02/Cgbj0Fx_ZKSATnTJAAU3Ca8M6D8964.png" alt="">
-                            <span class="phone-x-name">魅族 Note9</span>
-                            <span class="phone-x-desc">骁龙 675 | 后置 4800 万</span>
-                            <span class="phone-x-price">
+                            <span class="phone-x-name phone-name">魅族 Note9</span>
+                            <span class="phone-x-desc phone-desc">骁龙 675 | 后置 4800 万</span>
+                            <span class="phone-x-price phone-price">
                                 <i>￥</i>
                                 1199
                             </span>
@@ -219,9 +237,9 @@
                     <div class="phone-x-box">
                         <a href="#">
                             <img src="https://openfile.meizu.com/group1/M00/07/02/Cgbj0Fx_ZKSATnTJAAU3Ca8M6D8964.png" alt="">
-                            <span class="phone-x-name">魅族 Note9</span>
-                            <span class="phone-x-desc">骁龙 675 | 后置 4800 万</span>
-                            <span class="phone-x-price">
+                            <span class="phone-x-name phone-name">魅族 Note9</span>
+                            <span class="phone-x-desc phone-desc">骁龙 675 | 后置 4800 万</span>
+                            <span class="phone-x-price phone-price">
                             <i>￥</i>
                             1199
                         </span>
@@ -233,9 +251,9 @@
                     <div class="phone-x-box">
                         <a href="#">
                             <img src="https://openfile.meizu.com/group1/M00/07/02/Cgbj0Fx_ZKSATnTJAAU3Ca8M6D8964.png" alt="">
-                            <span class="phone-x-name">魅族 Note9</span>
-                            <span class="phone-x-desc">骁龙 675 | 后置 4800 万</span>
-                            <span class="phone-x-price">
+                            <span class="phone-x-name phone-name">魅族 Note9</span>
+                            <span class="phone-x-desc phone-desc">骁龙 675 | 后置 4800 万</span>
+                            <span class="phone-x-price phone-price">
                                 <i>￥</i>
                                 1199
                             </span>
@@ -248,7 +266,7 @@
 
         </div>
         <!-- -------------------voice----------------- -->
-        <div id="voice">
+        <div id="voice" class="floor">
             <div class="note">魅族声学</div>
             <div class="ad">
                 <a href="#">
@@ -393,7 +411,7 @@
             </ul>
         </div>
         <!-- -----------_Accessories----------------- -->
-        <div id="Accessories">
+        <div id="Accessories" class="floor">
             <div class="note">
                 智能配件
             </div>
@@ -495,7 +513,7 @@
                 </li>
         </div>
         <!-- ------------LifeSurrounding------------- -->
-        <div id="LifeSurrounding">
+        <div id="LifeSurrounding" class="floor">
             <div class="note">
                 生活周边
             </div>
@@ -597,7 +615,7 @@
                 </li>
         </div>
         <!-- ----------------community--------------- -->
-        <div id="community">
+        <div id="community" class="floor">
             <div class="note">社区热帖</div>
             <ul class="list">
                 <!-- 1 -->
@@ -700,7 +718,7 @@
             </ul>
         </div>
         <!-- ----------------flyme--------------- -->
-        <div id="flyme">
+        <div id="flyme" class="floor">
             <div class="note">Flyme</div>
             <ul class="list">
                 <!-- 1 -->
@@ -756,7 +774,7 @@
             </ul>
         </div>
         <!-- ----------------vedio--------------- -->
-        <div id="vedio">
+        <div id="vedio" class="floor">
             <div class="note">精彩视频</div>
             <ul class="list">
                 <!-- 1 -->
